@@ -1,16 +1,21 @@
-# first_app
+# Dice Roller Uygulaması
 
-A new Flutter project.
+Bu proje, Flutter kullanarak oluşturulmuş basit bir zar atma uygulamasıdır. Uygulama, kullanıcıya iki zar atma seçeneği sunar ve her zar atıldığında rastgele bir sayı görüntülenir.
 
-## Getting Started
+## Özellikler
 
-This project is a starting point for a Flutter application.
+- **GradientContainer:** Arka planı, iki renk arasında yumuşak bir geçişle gradient olarak ayarlayan bir widget.
+- **DiceRoller:** Kullanıcı her tıkladığında iki zarı döndüren ve ekranda sonucu gösteren widget.
 
-A few resources to get you started if this is your first Flutter project:
+## Ekran Görüntüleri
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Dice Roller Screenshot](assets/images/screenshot.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Kurulum
+
+Bu projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
+
+1. **Depoyu klonlayın:**
+   ```bash
+   git clone https://github.com/kullaniciadi/dice-roller.git
+   cd dice-roller
